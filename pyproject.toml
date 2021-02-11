@@ -6,6 +6,7 @@ authors = ["Bhagirath Bhatt <budbhatt@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+black = {version = "^20.8b1", allow-prereleases = true}
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
